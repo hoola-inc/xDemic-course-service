@@ -1,0 +1,46 @@
+{
+  "name": "xdemic-course-service",
+  "version": "1.0.0",
+  "description": "service for xDemic courses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoola-inc/xDemic-course-service.git"
+  },
+  "author": "Hoola Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoola-inc/xDemic-course-service/issues"
+  },
+  "homepage": "https://github.com/hoola-inc/xDemic-course-service#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "chalk": "^3.0.0",
+    "clf-date": "^0.1.0",
+    "compression": "^1.7.4",
+    "cool-ascii-faces": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "gridfs": "^1.0.0",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "snyk": "^1.291.0",
+    "tweetnacl": "^1.0.3",
+    "uport-credentials": "^1.3.0",
+    "uport-transports": "^0.2.6",
+    "uuid": "^3.4.0",
+    "winston": "^3.2.1"
+  }
+}
