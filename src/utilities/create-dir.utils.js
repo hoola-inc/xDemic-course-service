@@ -1,6 +1,6 @@
 const makeDir = require('make-dir');
 const fs = require('fs');
-const dirPath = require('path').join(__dirname, '../../public/csv-files');
+const dirPath = require('path').join(__dirname, '../../public');
 
 if (!fs.existsSync(dirPath)) {
     (async () => {
